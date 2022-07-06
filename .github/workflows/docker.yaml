@@ -26,5 +26,5 @@ jobs:
           context: .
           push: true
           tags: |
-            iamcaleberic/nginx-custom:latest
-            iamcaleberic/nginx-custom:v0.1.0
+            ghcr.io/iamcaleberic/nginx-custom:latest
+            ghcr.io/iamcaleberic/nginx-custom:v0.1.0
