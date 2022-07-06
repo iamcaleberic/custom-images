@@ -1,2 +1,2 @@
-# nginx-custom
-Nginx custom image with networking tools
+# custom-images
+Custom images for debugging
