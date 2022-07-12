@@ -1,4 +1,4 @@
-name: nginx image
+name: debian image
 
 on:
   push:
@@ -23,8 +23,8 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v2
         with:
-          context: nginx/
+          context: debian/
           push: true
           tags: |
-            ghcr.io/iamcaleberic/nginx:latest
-            ghcr.io/iamcaleberic/nginx:v0.1.0
+            ghcr.io/iamcaleberic/debian:latest
+            ghcr.io/iamcaleberic/debian:v0.1.0
