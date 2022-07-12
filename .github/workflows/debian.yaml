@@ -3,7 +3,11 @@ name: debian image
 on:
   push:
     branches:
-      - main
+      - '*'
+    paths:
+      - '.github/workflows/debian.yaml'
+      - 'debian/**'
+
 
 jobs:
   build:
